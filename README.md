@@ -7,8 +7,9 @@ I served as the rump session chair for CRYPTO 2022. We used HotCRP for slide sub
 I wrote this Python script (with help from Nadia Heninger, my co-chair) to concatenate slides together into one big PDF,
 with automatically-added interstitial slides that give title, speaker, and the next speaker.
 
-The script will likely require some modification to fit your specific use case---specifically the
-hard-coded file name templates---but should work for downloads from HotCRP of type "JSON with attachments".
+The script will likely require some modification to fit your specific use case. In particular, the
+hard-coded file name templates will probably need to be modified. Other than that, it should
+"just work" (more or less) for downloads from HotCRP of type "JSON with attachments".
 It assumes the files are in the same directory as the script. It also uses a hard-coded LaTeX preamble,
 which is included.
 
